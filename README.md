@@ -11,7 +11,11 @@
 5. Farras Syafiq Ulumuddin - 2406495722
 
 ## Deliverable G.1
+**Container Diagram**
+![Container Diagram BidMart](images/container-diagram.png)
 
 ## Deliverable G.2
+**Future Container**
+![Future Container Diagram BidMart](images/future-container-diagram.png)
 
 ## Deliverable G.3
