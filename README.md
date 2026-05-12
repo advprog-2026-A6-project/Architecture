@@ -73,10 +73,10 @@ Terakhir, penambahan **database replica** untuk setiap service kritis memitigasi
 #### Affandi Shafwan Soleh - Order Notification
 #### Order Notification Component Diagram
 
-![Order Notification Component Diagram](images/OrderNotification-ComponentDiagram.png)
+![Order Notification Component Diagram](images/OrderNotifications-ComponentDiagram.png)
 
 #### Order Notification Code Diagram
-![Order Notification Code Diagram](images/OrderNotification-CodeDiagram.png)
+![Order Notification Code Diagram](images/OrderNotifications-CodeDiagram.png)
 
 
 ---
