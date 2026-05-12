@@ -11,6 +11,14 @@
 5. Farras Syafiq Ulumuddin - 2406495722
 
 ## Deliverable G.1
+### Container Diagram
+![Container Diagram](images/ContainerDiagram.png)
+
+### Context Diagram
+![Context Diagram](images/ContextDiagram.png)
+
+### Deployment Diagram
+![Deployment Diagram](images/DeploymentDiagram.png)
 
 ## Deliverable G.2
 
