@@ -76,5 +76,5 @@ Terakhir, penambahan **database replica** untuk setiap service kritis memitigasi
 ![Order Notification Component Diagram](images/OrderNotification-ComponentDiagram.png)
 
 #### Order Notification Code Diagram
-![Order Notification Code Diagram](images/OrderNotification-ComponentDiagram.png)
+![Order Notification Code Diagram](images/OrderNotification-CodeDiagram.png)
 
