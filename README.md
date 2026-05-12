@@ -69,3 +69,12 @@ Terakhir, penambahan **database replica** untuk setiap service kritis memitigasi
 #### Auction Code Diagram
 ![Auction Code Diagram](images/Auction-CodeDiagram.png)
 
+
+#### Affandi Shafwan Soleh - Order Notification
+#### Order Notification Component Diagram
+
+![Order Notification Component Diagram](images/OrderNotification-ComponentDiagram.png)
+
+#### Order Notification Code Diagram
+![Order Notification Code Diagram](images/OrderNotification-ComponentDiagram.png)
+
