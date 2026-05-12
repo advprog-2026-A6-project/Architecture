@@ -98,5 +98,13 @@ Terakhir, penambahan **database replica** untuk setiap service kritis memitigasi
 
 #### Wallet Code Diagram
 ![Wallet Code Diagram](images/Wallet-CodeDiagram.png)
+
+#### Farras S. Ulumuddin - Catalog
+#### Catalog Component Diagram
+
+![Catalog Component Diagram](images/CatalogComponentDiagram.png)
+
+#### Catalog Code Diagram
+![Catalog Code Diagram](images/CatalogCodeDiagram.png)
 ---
 
