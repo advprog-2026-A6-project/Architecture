@@ -57,3 +57,15 @@ Perubahan dari arsitektur saat ini ke arsitektur yang diperbarui didorong oleh k
 Penggantian komunikasi sinkronus antar service dengan **Event Bus berbasis Kafka** adalah respons langsung terhadap risiko kegagalan berantai. Dengan pola publish-subscribe, Lelang Service tidak perlu menunggu konfirmasi dari Katalog Service atau Pesanan Service sebelum menyelesaikan proses penawaran. Event seperti `BidPlaced`, `AuctionExtended`, dan `WinnerDetermined` diterbitkan ke Kafka, lalu dikonsumsi oleh service yang berkepentingan secara independen. Jika salah satu consumer mengalami gangguan, event tetap tersimpan di Kafka dan akan diproses saat service pulih, tidak ada data yang hilang dan tidak ada kegagalan yang menjalar ke service lain.
 
 Terakhir, penambahan **database replica** untuk setiap service kritis memitigasi risiko kehilangan data dan overload pada primary database. Operasi baca dialihkan ke replica, sehingga beban query analitik atau penelusuran katalog tidak bersaing dengan operasi tulis yang bersifat time-sensitive seperti pencatatan bid baru. Penambahan **Reporting DB** yang diisi melalui Kafka juga memisahkan kebutuhan analitik dari operasi transaksional, mencegah query berat mengganggu performa sistem lelang secara keseluruhan.
+
+---
+
+### Individual 
+#### Jonathan Yitskhaq Rundjan - Auction
+#### Auction Component Diagram
+
+![Auction Component Diagram](images/Auction-ComponenDiagram.png)
+
+#### Auction Code Diagram
+![Auction Code Diagram](images/Auction-CodeDiagram.png)
+
