@@ -79,4 +79,11 @@ Terakhir, penambahan **database replica** untuk setiap service kritis memitigasi
 ![Order Notification Code Diagram](images/OrderNotifications-CodeDiagram.png)
 
 
+#### Jovian Felix Rustan - Wallet
+#### Wallet Compoentn Diagram
+
+![Wallet Component Diagram](images/Wallet-ComponentDiagram.png)
+
+#### Wallet Code Diagram
+![Wallet Code Diagram](images/Wallet-CodeDiagram.png)
 ---
